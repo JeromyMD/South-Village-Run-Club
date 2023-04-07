@@ -1,0 +1,106 @@
+
+body{
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    background-color: lightsalmon;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding-top: 1rem;
+    background-color: teal;
+    color: lightsalmon;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+ li{
+    color: lightsalmon;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: lightsalmon;
+}
+
+
+.intro {
+    height: 30rem;
+    padding-top: 1rem;
+    margin-top: 50px;
+    color: coral;
+    background-position: center;
+   background-image: url;
+}
+
+.intro h1{
+    text-align: center;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    margin-top: 10rem;
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;   
+}
+ 
+.summary h2{
+    color: yellow;
+}
+
+.summary{
+    padding: 0 1rem;
+    color: white;
+}
+
+.photos img{
+    width: 500px;
+    padding: 20px;
+}
+
+
+.testimonial {
+    background-color: teal;
+    height: 20rem;
+    color: yellow;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    margin: 4em auto;
+}
+
+.meetup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+.meetup h1{
+    color: yellow;
+    
+}
+
+.meetup img{
+   width: 500px;
+   align-items: center;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
